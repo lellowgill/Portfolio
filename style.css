@@ -1,6 +1,6 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
+/**<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap" rel="stylesheet">*/
 * {
     padding: 0;
     margin: 0;
@@ -39,7 +39,7 @@ a {
     z-index: -1;
 }
 #hero .hero{
-    max-width: 12oopx;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
     justify-content: flex-start;
