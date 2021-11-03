@@ -46,8 +46,10 @@ letter-spacing: .05rem;
     left: 0;
     top: 0;
     height: 100%;
-    width: 100%;
-    background: linear-gradient(to bottom, #ffccff 0%, #ffff99 100%);
+    width: 115%;
+    /*background: linear-gradient(to bottom, #ffccff 0%, #ffff99 100%); */
+    background-image: url(./businesswoman-writing-spiral-notepad-office-desk_23-2148178579.jpg.webp);
+    background-size: 100%;
     opacity: .7;
     z-index: -1;
 }
@@ -115,7 +117,7 @@ letter-spacing: .05rem;
 }
 /* End Hero Section */
 
-.photo{
+/*.photo{
     border-radius: 2%;
     background: url('./Image-from-iOS.jpg');
     background-size: 100%;
@@ -125,7 +127,7 @@ letter-spacing: .05rem;
     position: relative;
     left: 600px;
     bottom: 600px;
-}
+} */
 
 /*keyframes */
 @keyframes text_reveal_box{
