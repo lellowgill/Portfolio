@@ -48,7 +48,7 @@ color: white;
     background-position: top center;
     position:relative;
 }
-#hero::after{
+#shero::after{
     content: '';
     position: absolute;
     left: 0;
@@ -61,13 +61,13 @@ color: white;
     opacity: .7;
     z-index: -1;
 }
-#hero .hero{
+#shero .hero{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
     justify-content: flex-start;
 }
-.hero h1{
+.shero h1{
     display: block;
     width: fit-content;
     font-size: 4rem;
@@ -76,17 +76,17 @@ color: white;
     animation: text_reveal .5s ease forwards;
     animation-delay: 1ss;
 }
-#hero h1:nth-child(1) {
+#shero h1:nth-child(1) {
     animation-delay:1s;
 }
-#hero h1:nth-child(2) {
+#shero h1:nth-child(2) {
     animation-delay:2s;
 }
-#hero h1:nth-child(3) {
+#shero h1:nth-child(3) {
     animation: text_reveal_name .5s ease forwards;
     animation-delay:3s;
 }
-#hero h1 span{
+#shero h1 span{
     position: absolute;
     top:0;
     left: 0;
@@ -96,16 +96,16 @@ color: white;
     animation: text_reveal_box 1s ease;
     animation-delay: .3s ;
 }
-#hero h1:nth-child(1) span{
+#shero h1:nth-child(1) span{
     animation-delay: .5s;
 }
-#hero h1:nth-child(2) span{
+#shero h1:nth-child(2) span{
     animation-delay: 1.5s;
 }
-#hero h1:nth-child(3) span{
+#shero h1:nth-child(3) span{
     animation-delay: 2.5s;
 }
-#hero .cta{
+#shero .cta{
     display: inline-block;
     padding: 10px;
     color: black;
@@ -118,7 +118,7 @@ color: white;
     transition: .3s ease;
     transition-property: background-color, color;
 }
-#hero .cta:hover{
+#shero .cta:hover{
     color:white;
     background-color: crimson;
 
@@ -419,18 +419,7 @@ color: white;
 }
  /* End Contact Section */
 
-/*Keyframe Section*/
-@keyframes text_reveal{
-    100%{
-        color:white;
-    }
-}
-@keyframes text_reveal_name{
-    100%{
-        color:crimson;
-        font-weight: 500;
-    }
-}
+
 /* Footer */
 #footer {
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); 
@@ -448,12 +437,10 @@ color: white;
     letter-spacing: .1rem;
     margin-top: 10px;
     margin-bottom: 10px;
-    
 }
 #footer .social-icon {
     display: flex;
     margin-bottom: 30px;
-
 }
 #footer .social-item {
     height: 50px;
@@ -473,5 +460,16 @@ color: white;
 }
 /* End Footer */
 
-
+/*Keyframe Section*/
+@keyframes text_reveal{
+    100%{
+        color:white;
+    }
+}
+@keyframes text_reveal_name{
+    100%{
+        color:crimson;
+        font-weight: 500;
+    }
+}
 /*End keyframes*/
